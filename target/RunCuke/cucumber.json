@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 10285939900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "I can open the website successfully",
+        "description": "",
+        "id": "virgin-games-functionality;i-can-open-the-website-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 1610392000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 282433800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter url in the browser",
+            "match": {
+              "location": "LoginTestSteps.iEnterUrlInTheBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Home Page",
+            "match": {
+              "location": "LoginTestSteps.userIsOnHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 174305200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I should see the message",
+            "match": {
+              "location": "LoginTestSteps.iShouldSeeTheMessage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Virgin Games Functionality",
+    "description": "",
+    "id": "virgin-games-functionality",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]
